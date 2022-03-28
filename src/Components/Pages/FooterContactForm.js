@@ -22,7 +22,8 @@ const onSubmit = async (data, { setSubmitting, resetForm }) => {
 
     // const url = "https://pmlanding.nimapinfotech.com/api/mail"; 
     // const url = "https://raaslanding.nimapinfotech.com/api/mail?from=350";
-    const url = "http://localhost:4800/api/mail?from=350"
+    // const url = "http://localhost:4800/api/mail?from=350"
+    const url = "http://144.91.79.237:8909/api/mail?from=350"
 
 
     const res = await new axios.post(url, details);
