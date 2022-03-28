@@ -1,0 +1,20 @@
+.glance{
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: -3%;
+}
+
+.glancetext{
+    margin-left: 5%;
+    font-size:30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.glancetext b{
+    color: #4DB8EF;
+}
+.glanceimg img{
+    height: 470px;
+    width: 790px;
+    margin-top: 20px;
+}

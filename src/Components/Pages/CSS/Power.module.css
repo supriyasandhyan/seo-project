@@ -1,0 +1,58 @@
+.power{
+  background-color: #f3f3f3;
+  width: 100%;
+  padding: 10px;
+}
+.power-container{
+  width: 90%;
+  margin: 15px 65px;
+  background-color: white;
+}
+.power h1{
+  color: black;
+    margin-left: 7%;
+    padding-top: 50px;
+    width: 476px;
+    font-family: 'Poppins';
+}
+b{
+  color: #4DB8EF;
+}
+
+.power-main{
+  display: flex;
+    height: 467px;
+    width: 500px;
+}
+.power-enq-btn{
+  align-items: center;
+  color: white;
+  margin-top: 30%;
+  margin-left: 7%;
+  background-color: #4DB8EF;
+  border: none;
+  height: 40px;
+  width: 150px;
+  font-size: 18px;
+  border-radius: 5px;
+  /* box-shadow: 1px 1px 5px 1px #ddd4d48f; */
+  box-shadow: 1px 1px 4px 1px #5a4e4e8f;
+}
+
+.power-enq-btn:hover{
+  box-shadow: 2px 2px 7px 2px #5a4e4e8f;
+}
+
+.line-shape{
+  width: 582px;
+  height: 470px;
+  margin-left: 143px;
+  margin-top: -1px;
+}
+.new-lady{
+  height: 350px;
+    width: 320px;
+    margin-left: 318px;
+    margin-top: -360px;
+    margin-bottom: 30px
+}

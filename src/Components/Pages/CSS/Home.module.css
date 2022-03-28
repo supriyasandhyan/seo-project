@@ -1,0 +1,72 @@
+
+.home{
+    height: 100vh;
+    width: 100%;
+    background-color: #deeeed;
+  }
+
+  .home-parent{
+    display: flex;
+    flex-direction: row;
+    padding-top: 15px;
+  }
+
+  .Home-head{
+    margin-left: 10%;
+  }
+  .Home-head h2{
+    font-weight: bold;
+    font-size: 30px;
+    word-spacing: 5px;
+  }
+  .Home-head h1{
+    font-weight: bold;
+    font-size: 32px;
+    color: #4db8ef;
+  }
+
+  .home-getintouch{
+  background-color: #0FE8Ff;
+  border: none;
+  text-align: center;
+  border-radius: 5px;
+  width: 140px;
+  padding: 4px;
+  color: white;
+  margin-left: 85px;
+  box-shadow: 1px 1px 5px 1px #8080808f;
+  -webkit-animation: bounce .5s infinite alternate;
+  -moz-animation: bounce .5s infinite alternate;
+  animation: bounce .5s infinite alternate;
+}
+@-webkit-keyframes bounce {
+  to { -webkit-transform: scale(1.1); }
+}
+@-moz-keyframes bounce {
+  to { -moz-transform: scale(1.1); }
+}
+@keyframes bounce {
+  to { transform: scale(1.1); }
+}
+  
+  /* .home-getintouch:hover{
+    box-shadow: 2px 2px 7px 2px #8080808f;
+  } */
+  
+  .home-paragraf{
+    margin-left: 10%;
+    font-size: 17px;
+    word-spacing: 5px;
+  }
+
+  .home-images{
+    height: 400px;
+    width: 600px;
+    margin-top: 15px;
+    margin-left: 340px;
+  }
+
+  
+ 
+
+ 

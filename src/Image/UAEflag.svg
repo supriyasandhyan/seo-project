@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72" height="48.31" viewBox="0 0 72 48.31">
+  <defs>
+    <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 155 104">
+      <image width="155" height="104" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJsAAABoCAYAAADmZ4I7AAAABHNCSVQICAgIfAhkiAAAAoFJREFUeF7tnFERgzAYxlpFswBa5mBepqcImIR56YaLXC4cAr78yfHI3GP8X8czXw8HiJRiFpvULBCr2IBSrJOKzWoWyFVsQCnWScVmNQvkKjagFOukYrOaBXIVG1CKdVKxWc0CuYoNKMU6qdisZoFcxQaUYp1UbFazQK5iA0qxTio2q1kgV7EBpVgnFZvVLJCr2IBSrJOKzWoWyFVsQCnWScVmNQvkKjagFOukYrOaBXIVG1CKdVKxWc0CuYoNKMU6qdisZoFcxQaUYp1UbFazQK5iA0qxTio2q1kgV7EBpVgnFZvVLJBLFdv5fgJP3KT7Atf3c6liG1vzx1ZjoWexGbVCmYoNKsY4q9iMVqFMxQYVY5xVbEarUKZig4oxzio2o1UoU7FBxRhnFZvRKpSp2KBijLOKzWgVylRsUDHGWcVmtAplKjaoGOOsYjNahTIVG1SMcVaxGa1CmYoNKsY4q9iMVqFMxQYVY5xVbEarUKZig4oxzio2o1UoU7FBxRhnFZvRKpSp2KBijLOKzWgVylRsUDHGWcVmtAplKjaoGOOsYjNahTIVG1SMcVaxGa1CmTSxnfeBjwN65mattYYmtplP9AX23p7fnBYburV73OzLhnekGVhsGpV8kGLjO9IsLDaNSj5IsfEdaRYWm0YlH6TY+I40C4tNo5IPUmx8R5qFxaZRyQcpNr4jzcJi06jkgxQb35FmYbFpVPJBio3vSLOw2DQq+SDFxnekWVhsGpV8kGLjO9IsLDaNSj5IsfEdaRYWm0YlH6TY+I40C4tNo5IPUmx8R5qFxaZRyQcpNr4jzcJi06jkgxQb35FmYbFpVPJBio3vSLOw2DQq+SDzByVSNAmuPnYoAAAAAElFTkSuQmCC"/>
+    </pattern>
+  </defs>
+  <rect id="UAE_Flag_Icon" data-name="UAE Flag Icon" width="72" height="48.31" rx="14" fill="url(#pattern)"/>
+</svg>
