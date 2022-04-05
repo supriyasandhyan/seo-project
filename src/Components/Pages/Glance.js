@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './CSS/Glance.module.css';
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 import { Carousel } from 'react-responsive-carousel';
 import Glance1 from '../../Image/Glance1.svg';
 import Glance2 from '../../Image/Glance2.svg';

@@ -1,82 +1,53 @@
 .policy{
-    /* height: 100vh; */
-    margin-bottom: -26px;
     background-color: #f3f3f3;
-}
-.clarity{
-    height: 110vh;
-    /* margin-bottom: 15%; */
-    margin-bottom: -25px;
-    background-color: #f3f3f3;
+  padding: 2% 5% 0% 5%;
 }
 
+
 .policy-img{
-    /* height: 29vw;
-    width: 58vw;
-    margin-left: -25%; */
-    margin-bottom:15px;
-    margin-top: 20px;
-    height: 35vw;
-    width: 58vw;
-    margin-left: -30%;
+    height: 100%;
+    width: 100%;
 }
 
 .aa{
-    padding: 5px;
-    width: 100%;
-    height: 100%;
-    margin-top: 5%;
-    
-}
-/* .aanew{
-    width: 100%;
-    height: 100%;
-    margin-top: 5%;
-    display: flex;
-    flex-direction: row;
-} */
-
-.dd{
-  width: 10%;
-  height: 300px;
-  float:left;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+     "img img CA CA"
+    "CA CA CA CA";
+    gap: 3%;
 }
 
 .bb{
-    width: 40%;
-    height: 300px;
-    float:left;  
+    grid-area: img;
+    width: 100%;
+    height: 100%;
+   
 }
 .poli-cc{
-     width: 35.5%;
-     height: 348px;
-     margin-left: 4.5%;
-     margin-top: 3%;
-     display: flex;
-     flex-direction: column;
-     justify-content:start;
+    grid-area: CA;
+    width: 100%;
+    height: 100%;
 }
 
 .policc-h1{
     font-family:unset ;
-    margin-top: 15px;
+  
     font-size: 25px;
-    margin-left: 55px;
-    margin-bottom: 15px;
+  
     font-weight: 700;
     line-height: 42px;
 }
 .policc-para{
     font-size: 18px;
-    margin-top: 5%;
-    margin-left: 55px;
+  
     width: 470px;
     word-spacing: 10px;
+    text-align: justify;
 }
 .claritypara{
     font-size: 18px;
-    margin-top: 3%;
-    margin-left: 55px;
+   
     text-align: justify;
     width: 430px;
     line-height: 35px;
@@ -89,8 +60,7 @@
     background-color: #4DB8EF;
     border: none;
     padding: 10px;
-    margin-left: 35%;
-    margin-top: 15%;
+  
     font-size: 15px;
     width: 15%;
     box-shadow: 1px 1px 5px 1px #8080808f;
@@ -102,8 +72,7 @@
     text-align: center;
     border-radius: 5px;
     border-color: #4DB8EF;
-    margin-left: 2%;
-    margin-top: -3%;
+    
     font-size: 15px;
     padding: 7px;
     width: 15%;
@@ -117,8 +86,7 @@
     text-align: center;
     border-radius: 5px;
     padding: 10px;
-    margin-left: 35%;
-    margin-top: 2%;
+   
     font-size: 15px;
     width: 15%;
     box-shadow: 1px 1px 5px 1px #8080808f;
@@ -130,15 +98,14 @@
     text-align: center;
     border-radius: 5px;
     border-color: #4DB8EF;
-    margin-left: 2%;
-    margin-top: -3%;
+  
     font-size: 15px;
     padding: 7px;
     width: 15%;
     box-shadow: 1px 1px 5px 1px #8080808f;
 }
 
- .Initialbtn1:hover, .Initialbtn2:hover, .poli1:hover, .poli2:hover{
+.Initialbtn1:hover, .Initialbtn2:hover, .poli1:hover, .poli2:hover{
     font-weight: bolder;
     box-shadow: 2px 2px 7px 2px #ddd4d48f;
   }
@@ -151,16 +118,22 @@
 }
 
 .subpara{
-    margin-top: -20%;
+
     font-size: 18px;
-    margin-left: 11%;
+   
     line-height: 30px;
 }
 .claritypara2{
-    margin-left: 6%;
+  
     font-size: 18px;
     text-align: justify;
-    margin-top: 15px;
     line-height: 25px;
-    margin-top: 100px;
+
+}
+.mainpolibtn{
+    gap: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5%;
 }

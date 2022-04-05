@@ -14,7 +14,6 @@
     font-size:x-large;
     margin-left: 5%;
     font-weight: 700;
-    margin-bottom: 40px;
     word-spacing: 0.5vmax;
 }
 span{
@@ -23,9 +22,18 @@ span{
 }
 
 .row11{
-    margin-left: 12%;
-    display: flex;
-    flex-direction:row;
+    display: grid;
+    grid-template-columns: auto auto;
+    /* padding: 10px 4px 20px 0px; */
+    justify-content: center;
+    padding: 0px 200px;
+    gap: 20px;
+}
+.rov-div{
+    display: grid;
+    grid-template-columns: 70px auto;
+    grid-template-rows: 45px;
+    padding: 10px 17px;
 }
 
 .row12{
@@ -51,46 +59,75 @@ span{
 }
 
 .bg-img{
-    background-color:#e5eef3;
-    /* box-shadow: 1px 1px 1px 1px rgb(204 202 202); */
+    background-color: #e5eef3;
     padding: 10px;
     border-radius: 80%;
-    width: 55px;
-    height: 6%;
+    width: 57px;
+    height: 37%;
+    grid-row: 1 / span 2;
 }
 
-.bg-img3{
-    background-color:#e5eef3;
-    /* box-shadow: 1px 1px 1px 1px rgb(204 202 202); */
-    padding: 10px;
-    border-radius: 80%;
-    width: 55px;
-    height: 6%;
-}
 .bg-img1{
     background-color: #e5eef3;
-    /* box-shadow: 1px 1px 1px 1px rgb(204 202 202); */
-    padding: 15px;
+    padding: 5px;
     border-radius: 80%;
-    width: 55px;
-    height: 5%;
+    width: 60px;
+    height: 60px;
+    grid-row: 1 / span 2;
 }
+
+.bg-img2{
+    background-color: #e5eef3;
+    padding: 5px;
+    border-radius: 80%;
+    width: 60px;
+    height: 60px;
+    grid-row: 1 / span 2;
+}
+.bg-img3{
+    background-color: #e5eef3;
+    padding: 10px;
+    border-radius: 80%;
+    width: 57px;
+    height: 37%;
+    grid-row: 1 / span 2;
+}
+.bg-img4{
+    background-color: #e5eef3;
+    padding: 5px;
+    border-radius: 80%;
+    width: 60px;
+    height: 60px;
+    grid-row: 1 / span 2;
+}
+.ecomicon{
+    width: 42px;
+    height: 43px;
+    padding: 0px 0px 4px 0px;
+}
+
 .linkicon{
-    margin-left: -4px;
+    width: 45px;
+    height: 52px;
+    padding: 0px 0px 0px 6px;
 }
 .hotracicon{
-    margin-left: 0px;
+    width: 45px;
+    height: 52px;
 }
 
 .loclicon{
-    margin-left: -5px;
-    margin-top: -2px;
+    padding: 4px 5px 4px 5px;
+    width: 50px;
+    height: 50px;
+}
+.seoicon{
+    width: 37px;
+    height: 43px;
+    padding: 0px 0px 2px 0px;
 }
 
 .mt-3{
-    margin-top: -5px;
-    margin-bottom: 1rem;
-    margin-left: 12px;
     cursor: pointer;
     font-size: 20px;
 }

@@ -2,22 +2,59 @@
 .top{
   width: 100%;
   height: 85vh;
-  margin-bottom: 0%;
-  padding-top: 5%;
+  /* margin-bottom: 0%; */
+  /* padding: 10px; */
   background-image: url(/src/Image/Banner.svg);
   background-blend-mode:darken;
   background-size:cover;
   backdrop-filter: blur(50px);
   background-color: rgba(105, 101, 101, 0.2);
+  /* display: grid; */
+
+  /* grid-template-columns: 1fr;
+  grid-gap: 5px; */
+  display: flex;
+  flex-direction: column;
 }
 
-.top-right .para1{
+.TOP{
+  display: grid;
+  grid-template-columns: auto auto;
+  /* grid-template-columns: 4fr 1fr; */
+  justify-content: space-around;
+}
+.top-main{
+  height: 50%;
+  width: 100%;
+  display: flex;
+  /* grid-template-columns: 5fr 1fr; */
+  align-items: start;
+  padding: .5% 7% 0px 7%;
+}
+
+.top-right {
+width: 85%;
+height: 100%;
+display: flex;
+flex-direction: column;
+}
+.ptext {
+  width: 15%;
+  display: flex;
+  align-items: start;
+  height: 100%;
+  margin-top: 4.8%;
+  /* display: grid;
+  justify-content: end; */
+}
+
+.top-right p{
   color: rgb(255, 255, 255);
-  font-size: 45px;
-  margin-left: 7%;
+  font-size: 5vw;
+  font-weight: bold;
 }
 
-.para1 strong{
+.para1 span{
   color: #4db8ef;
   animation: blinker 1s linear infinite;
 }
@@ -28,9 +65,19 @@
   }
 } */
 
+.talk{
+  background-color: orange;
+    padding: 10px 20px 10px 50px;
+    text-align: center;
+    color: white;
+    -webkit-clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 0% 100%, 25% 50%, 0% 0%);
+    clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 0% 100%, 25% 50%, 0% 0%);
+    transition: all .2s;
+}
+
 .talk-img{
-  margin-left: 82%;
-  margin-top: -250px;
+  /* margin-left: 82%;
+  margin-top: -250px; */
   cursor: pointer;
 }
 
@@ -38,24 +85,14 @@ a{
   text-decoration: none;
 }
 
-.ptext p{
-  color: white;
-  margin-left: 84.7%;
-  margin-top: -154px;
-  font-weight: lighter;
-  font-style: normal;
-  font-size: 20px;
-  cursor: pointer;
-}
+
 
 .marquee {
-  margin-top: 10%;
-  height: 90px;
-  margin-left: 10%;
-  width: 80%;
+  /* margin-top: 10%; */
+  height: 20%;
   background-color: white;
-  border-radius: 8px;
   justify-content: space-between;
+  /* grid-column: 1 / span 2; */
 }
 
 .marquee--inner {
@@ -63,6 +100,7 @@ a{
   position: absolute;
   padding: 5px;
   animation: marquee 25s linear infinite;
+  background: rgb(209, 145, 145);
 }
 
 .marquee--inner:hover {
@@ -70,9 +108,14 @@ a{
 }
 
 .marquee--span {
+  border: 2px solid white;
   float: left;
   width: 50%;
-  /* margin-left: 15%; */
+  justify-content: space-around;
+  background: rgb(23, 43, 85);
+}
+.marquee--span img{
+ width: 100px;
   justify-content: space-around;
 }
 
@@ -81,8 +124,10 @@ a{
   100% { right: -100%; }
 }
 
+
 .complogo{
   justify-content: space-around;
+  background: rgb(134, 31, 31);
 }
 
 .top-foot {
@@ -95,7 +140,7 @@ a{
 .top .top-foot p{
   text-align: center;
   font-size: 25px;
-  margin-top: 20px;
+  /* margin-top: 20px; */
   padding: 50px;
 }
 
@@ -104,10 +149,11 @@ a{
  font-weight: bolder;
 }
 
-.pic1{
+ .pic1{
   height: 70px;
   width: 108px;
   padding: 7px;
+  /* margin-top: 0px; */
 }
 .pic2{
   height: 70px ;
@@ -115,41 +161,40 @@ a{
   padding: 4px;
 }
 .pic3{
-  height: 50px ;
-  width: 100px;
+  height: 70px ;
+  width: 120px;
   padding: 4px;
 }
 .pic4{
-  height: 60px;
-  width: 100px;
+  height: 75px;
+    width: 156px;
   padding: 4px;
 }
 .pic5{
-  height: 80px ;
-  width: 110px;
+  height: 70px ;
+  width: 120px;
   padding: 4px;
-  margin-top: 11px;
+  /* margin-top: 13px; */
 }
 .pic6{
-  height: 60px;
-  width: 100px;
-  padding: 7px;
-  margin-top: 2px;
+  height: 70px;
+    width: 145px;
+    padding: 7px;
 }
 .pic7{
-  height: 58px;
-  width: 10px;
-  padding: 4px;
-  margin-top: 1px;
+  height: 70px;
+    width: 124px;
+
+    padding: 4px;
 }
 .pic8{
   height: 75px ;
-  width: 50% !important;
+  width: 65px;
   padding: 4px;
 }
 .pic9{
-  height: 75px ;
-  width: 50% !important;
+  height: 70px ;
+  width: 75px;
   padding: 4px;
 }
 .pic10{
@@ -158,43 +203,108 @@ a{
   padding: 4px;
 }
 .pic11{
-  height: 80px ;
-  width: 175px;
+  height: 70px ;
+  width: 105px;
   padding: 4px;
 }
 .pic12{
-  height: 60px ;
-  width: 130px;
+  height: 70px ;
+  width: 140px;
   padding: 4px;
 }
 .pic13{
-  height: 90px ;
-  width: 120px;
+  height: 70px ;
+  width: 90px;
   padding: 4px;
 }
 .pic14{
-  height: 80px;
-  width: 60% !important;
+  height: 75px;
+  width: 135px;
   padding: 4px;
 }
-.pic15{
+.pic1{
   height: 70px;
-  width: 60% !important;
+  width: 108px;
   padding: 7px;
+  /* margin-top: 0px; */
 }
-.pic16{
+.pic2{
   height: 70px ;
-  width: 50% !important;
+  width: 150px;
   padding: 4px;
 }
+.pic3{
+  height: 70px ;
+  width: 120px;
+  padding: 4px;
+}
+.pic4{
+  height: 75px;
+    width: 156px;
+  padding: 4px;
+}
+.pic5{
+  height: 70px ;
+  width: 120px;
+  padding: 4px;
+  /* margin-top: 13px; */
+}
+.pic6{
+  height: 70px;
+    width: 145px;
+    padding: 7px;
+}
+.pic7{
+  height: 70px;
+    width: 124px;
+
+    padding: 4px;
+}
+.pic8{
+  height: 75px ;
+  width: 65px;
+  padding: 4px;
+}
+.pic9{
+  height: 70px ;
+  width: 75px;
+  padding: 4px;
+}
+.pic10{
+  height: 70px ;
+  width: 120px;
+  padding: 4px;
+}
+.pic11{
+  height: 70px ;
+  width: 105px;
+  padding: 4px;
+}
+.pic12{
+  height: 70px ;
+  width: 140px;
+  padding: 4px;
+}
+.pic13{
+  height: 70px ;
+  width: 90px;
+  padding: 4px;
+}
+.pic14{
+  height: 75px;
+  width: 135px;
+  padding: 4px;
+} 
 
 .Seo-Button{
   display: grid;
   grid-auto-flow: column;
   justify-content: center;
   align-content: center;
-  margin-top: 85px;
+  /* margin-top: 85px; */
   gap: 20px;
+  grid-column: 1 / span 2;
+  height: 30%;
 }
 
 .seo-btn1{
@@ -228,14 +338,3 @@ a{
   box-shadow: 1px 1px 5px 1px #ddd4d48f;
 }
 
-.topscroll{
-  display: flex;
-  background-color: white;
-  margin-top: 120px;
-  width: 1100px;
-  height: 90px;
-  margin-left: 80px;
-  border-radius: 10px;
-  justify-content: space-around;
-  align-items: center;
-}

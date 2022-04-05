@@ -3,7 +3,7 @@ import axios from 'axios';
 import classes from './CSS/GetinTouch.module.css';
 import Location from '../../Image/Location.svg';
 import mail from '../../Image/mail.svg';
-import UAEflag from '../../Image/UAEflag.svg';
+import USAFlag from '../../Image/USAFlag.svg';
 import indiaflag from '../../Image/indiaFlag.svg';
 import { useFormik } from 'formik';
 
@@ -114,10 +114,10 @@ function GetinTouch() {
                     </span></li>
 
                     <li className={classes["list-item"]}>
-                    <img src={UAEflag} className={classes["imgg"]}></img>
+                    <img src={USAFlag} className={classes["imgg"]}></img>
                     <span className={classes["contact-indiaflag"]}>
                       <br/>
-                      <p className={classes['address']}>&nbsp; UAE | Branch Office <br/> +1 650 763 2218</p>
+                      <p className={classes['address']}>&nbsp; USA | Branch Office <br/> +1 650 763 2218</p>
                     </span></li>
 
                 </ul>
@@ -128,7 +128,7 @@ function GetinTouch() {
           <div className={classes['right-container']}>
             <div className={classes["right-inner-container"]}>
               <form onSubmit={(e) => { e.preventDefault(); formik.handleSubmit(e)}} className='getform'>
-                <h1>Get In Touch</h1>
+                <label id='get_in_touch'>Get In Touch</label>
                 <br/>
                 <p className={classes["lg-view"]}>Feel free  to drop us a line below!</p>
 

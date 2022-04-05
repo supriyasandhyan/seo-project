@@ -1,7 +1,7 @@
 
 .home{
-    height: 100vh;
-    width: 100%;
+  height: 100%;
+  width: 100%;
     background-color: #deeeed;
   }
 
@@ -60,13 +60,9 @@
   }
 
   .home-images{
-    height: 400px;
-    width: 600px;
-    margin-top: 15px;
-    margin-left: 340px;
+    height: 100vh;
+    width: 100wh;
   }
-
-  
  
 
  

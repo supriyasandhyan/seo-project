@@ -1,0 +1,83 @@
+.sales-container{
+    width: 100vw;
+    padding: 5%;
+}
+.sales {
+  display: flex;
+  height: 90vh;
+  width: 100%;
+//   border-radius: 10px;
+  // background: rgb(226, 167, 167);
+  background-color: #03045e;
+
+  &__firstHalf {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 70%;
+    // background: rgb(170, 241, 152);
+    &-para {
+      position: relative;
+      height: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      .content {
+        width: 100%;
+        left: 3%;
+        position: absolute;
+        h2 {
+          font-weight: bold;
+          font-size: 4.5vw;
+          color: #4db8ef;
+        }
+        h1 {
+          font-weight: bold;
+          font-size: 3.2vw;
+          color: white;
+        }
+      }
+    }
+    &-btn {
+        margin-left: 3%;
+      a {
+        button {
+          display: flex;
+          align-items: center;
+
+          color: white;
+          background-color: #4db8ef;
+
+          /* margin-bottom: 10px; */
+          border: none;
+          height: 36px;
+          width: 150px;
+          font-size: 18px;
+          border-radius: 5px;
+          box-shadow: 1px 1px 5px 1px #ddd4d48f;
+        }
+      }
+    }
+  }
+  &__secondHalf {
+    display: flex;
+    position: relative;
+    height: 100%;
+    flex-direction: column;
+    // background: rgb(153, 252, 255);
+    width: 30%;
+    .linesvg {
+      height: 70%;
+      position: absolute;
+      right: 0;
+      top: 15%;
+    }
+    .ladyimg {
+      position: absolute;
+      height: 87%;
+      right: 14%;
+      top: 2%;
+      bottom: 3;
+    }
+  }
+}

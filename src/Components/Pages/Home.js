@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import classes from './CSS/Home.module.css';
-import googleimg from '../../Image/googleimg.svg';
 import Banner1 from '../../Image/Banner1.jpg';
 import Banner2 from '../../Image/Banner2.jpg';
 import Banner3 from '../../Image/Banner3.jpg';
-import Banner4 from '../../Image/Banner4.jpg';
+import Banner4 from '../../Image/Banner4.png';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import Top from './Top';
 import GetinTouch from './GetinTouch';
@@ -29,66 +29,44 @@ export default function Home() {
         <>
             <div className={classes['home']}>
 
-                <div className={classes['home-parent']}>
-                <div className={classes['Home-head']}>
-                    <h2>It’s Good to be On Top 5.</h2>
-                    <h1>ARE YOU?</h1><br/>
-                </div>
-                <div className={classes['home-head-btn']}>
-                    <a href='#GetInTouch'>
-                        <button className={classes['home-getintouch']}>
-                            <strong>GET FREE QUOTE</strong>
-                        </button>
-                    </a>        
-                </div>
-                </div>
-
-                <div className={classes['home--paragraph']}>
-                    <p className={classes['home-paragraf']}>
-                    Don't let the drop in ranking impact your incoming leads. Ask Nimap the secret to 
-                    <p>
-                    level up your organic ranking with advanced SEO Strategy.
-                    </p>
-                    </p>
+                <a href='#GetInTouch'>
                    
-                </div>
+                    <div class="w-100">
+                        <div id="myCarousel" class="carousel slide" data-bs-interval="3000" data-bs-ride="carousel">
+
+                            <ol class="carousel-indicators">
+                                <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+                                <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+                                <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+                                <li data-bs-target="#myCarousel" data-bs-slide-to="3"></li>
+                            </ol>
+
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src={Banner1} class="d-block w-100" alt="Slide 1" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src={Banner2} class="d-block w-100" alt="Slide 2" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src={Banner3} class="d-block w-100" alt="Slide 3" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src={Banner4} class="d-block w-100" alt="Slide 4" />
+                                </div>
+                            </div>
 
 
-                <Carousel
-                    style={{height:'95vh'}}
-                    autoPlay={true}
-                    interval={4000}
-                    infiniteLoop={true}
-                    transitionTime={2.5}
-                    stopOnHover={false}
-                    showThumbs={false}
-                    height='95vh'
-                    showIndicators={false}
-                    showStatus={false}>
+                            {/* <a class="carousel-control-prev" href="#myCarousel" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#myCarousel" data-bs-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </a> */}
+                        </div>
+                    </div>
+                </a>
 
-                    <div className={classes['home-images']}>
-                    <img src={googleimg} />
-                    </div>
-                    <div className={classes['home-images']}>
-                    <img src={Banner1} />
-                    </div>
-                    <div className={classes['home-images']}>
-                    <img src={Banner2} />
-                    </div>
-                    <div className={classes['home-images']}>
-                    <img src={Banner3} />
-                    </div>
-                    <div className={classes['home-images']}>
-                    <img src={Banner4} />
-                    </div>
-                    
-                </Carousel>
-
-                {/* <div className={classes['media-icons']}>
-                    <i id={classes['messageicon']} class="bi bi-person-rolodex" onClick={() => setShow(true)}></i>
-                    <PopUp show={show} onClose={() => setShow(false)}>
-                    </PopUp>
-                </div> */}
             </div>
             <div>
                 <Top />
